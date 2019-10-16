@@ -25,7 +25,7 @@ SECRET_KEY = 'wdr_#if-%3khm)1*aiz+jq))^4ki@#jota935d^tq-!4-lg+#)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-env.gxgv949vfy.eu-central-1.elasticbeanstalk.com']
 
 
 # Application definition
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'US/Pacific'
 
 USE_I18N = True
 
@@ -118,3 +118,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'static'
